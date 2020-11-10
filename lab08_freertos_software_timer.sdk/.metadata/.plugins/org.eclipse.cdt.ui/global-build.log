@@ -997,3 +997,2149 @@ arm-none-eabi-size rtos_software_timer.elf  |tee "rtos_software_timer.elf.size"
   79244	   3408	  89440	 172092	  2a03c	rtos_software_timer.elf
 'Finished building: rtos_software_timer.elf.size'
 ' '
+11:36:44 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+'Finished building: ../src/rtos_software_timer.c'
+' '
+'Building target: rtos_software_timer.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rtos_software_timer_bsp/ps7_cortexa9_0/lib -o "rtos_software_timer.elf"  ./src/rtos_software_timer.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: rtos_software_timer.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rtos_software_timer.elf  |tee "rtos_software_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79260	   3408	  89440	 172108	  2a04c	rtos_software_timer.elf
+'Finished building: rtos_software_timer.elf.size'
+' '
+11:37:05 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+'Finished building: ../src/rtos_software_timer.c'
+' '
+'Building target: rtos_software_timer.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rtos_software_timer_bsp/ps7_cortexa9_0/lib -o "rtos_software_timer.elf"  ./src/rtos_software_timer.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: rtos_software_timer.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rtos_software_timer.elf  |tee "rtos_software_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79260	   3408	  89440	 172108	  2a04c	rtos_software_timer.elf
+'Finished building: rtos_software_timer.elf.size'
+' '
+11:37:11 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+'Finished building: ../src/rtos_software_timer.c'
+' '
+'Building target: rtos_software_timer.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rtos_software_timer_bsp/ps7_cortexa9_0/lib -o "rtos_software_timer.elf"  ./src/rtos_software_timer.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: rtos_software_timer.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rtos_software_timer.elf  |tee "rtos_software_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79260	   3408	  89440	 172108	  2a04c	rtos_software_timer.elf
+'Finished building: rtos_software_timer.elf.size'
+' '
+11:40:14 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+'Finished building: ../src/rtos_software_timer.c'
+' '
+'Building target: rtos_software_timer.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rtos_software_timer_bsp/ps7_cortexa9_0/lib -o "rtos_software_timer.elf"  ./src/rtos_software_timer.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: rtos_software_timer.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rtos_software_timer.elf  |tee "rtos_software_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79260	   3408	  89440	 172108	  2a04c	rtos_software_timer.elf
+'Finished building: rtos_software_timer.elf.size'
+' '
+12:28:09 **** Build of project helloworld_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/freertos10_xilinx_v1_3/src"
+make -C ps7_cortexa9_0/libsrc/freertos10_xilinx_v1_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"include"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_4/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v4_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/freertos10_xilinx_v1_3/src"
+make -C ps7_cortexa9_0/libsrc/freertos10_xilinx_v1_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+"Compiling FreeRTOS"
+arm-none-eabi-ar: creating ../../../lib/libfreertos.a
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_4/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v4_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+12:29:10 **** Build of configuration Debug for project helloworld ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/freertos_hello_world.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../helloworld_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+'Finished building: ../src/freertos_hello_world.c'
+' '
+'Building target: helloworld.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../helloworld_bsp/ps7_cortexa9_0/lib -o "helloworld.elf"  ./src/freertos_hello_world.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: helloworld.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size helloworld.elf  |tee "helloworld.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  77708	   3388	  89424	 170520	  29a18	helloworld.elf
+'Finished building: helloworld.elf.size'
+' '
+12:29:13 **** Auto Build of configuration Debug for project helloworld ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+12:31:51 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+../src/rtos_software_timer.c: In function 'vTimerCallback':
+../src/rtos_software_timer.c:347:18: error: 'TIMER_ID' undeclared (first use in this function); did you mean 'TIMERS_H'?
+  if (lTimerId != TIMER_ID) {
+                  ^~~~~~~~
+                  TIMERS_H
+../src/rtos_software_timer.c:347:18: note: each undeclared identifier is reported only once for each function it appears in
+../src/rtos_software_timer.c:356:6: error: 'RxtaskCntr' undeclared (first use in this function)
+  if (RxtaskCntr >= TIMER_CHECK_THRESHOLD) {
+      ^~~~~~~~~~
+../src/rtos_software_timer.c:356:20: error: 'TIMER_CHECK_THRESHOLD' undeclared (first use in this function)
+  if (RxtaskCntr >= TIMER_CHECK_THRESHOLD) {
+                    ^~~~~~~~~~~~~~~~~~~~~
+../src/rtos_software_timer.c:362:15: error: 'xRxTask' undeclared (first use in this function); did you mean 'xSWtask'?
+  vTaskDelete( xRxTask );
+               ^~~~~~~
+               xSWtask
+../src/rtos_software_timer.c:363:15: error: 'xTxTask' undeclared (first use in this function); did you mean 'xSWtask'?
+  vTaskDelete( xTxTask );
+               ^~~~~~~
+               xSWtask
+At top level:
+../src/rtos_software_timer.c:340:13: warning: 'vTimerCallback' defined but not used [-Wunused-function]
+ static void vTimerCallback( TimerHandle_t pxTimer )
+             ^~~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/rtos_software_timer.o] Error 1
+12:32:49 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+../src/rtos_software_timer.c: In function 'vTimerCallback':
+../src/rtos_software_timer.c:358:6: error: 'RxtaskCntr' undeclared (first use in this function)
+  if (RxtaskCntr >= TIMER_CHECK_THRESHOLD) {
+      ^~~~~~~~~~
+../src/rtos_software_timer.c:358:6: note: each undeclared identifier is reported only once for each function it appears in
+../src/rtos_software_timer.c:358:20: error: 'TIMER_CHECK_THRESHOLD' undeclared (first use in this function)
+  if (RxtaskCntr >= TIMER_CHECK_THRESHOLD) {
+                    ^~~~~~~~~~~~~~~~~~~~~
+../src/rtos_software_timer.c:364:15: error: 'xRxTask' undeclared (first use in this function); did you mean 'xSWtask'?
+  vTaskDelete( xRxTask );
+               ^~~~~~~
+               xSWtask
+../src/rtos_software_timer.c:365:15: error: 'xTxTask' undeclared (first use in this function); did you mean 'xSWtask'?
+  vTaskDelete( xTxTask );
+               ^~~~~~~
+               xSWtask
+At top level:
+../src/rtos_software_timer.c:342:13: warning: 'vTimerCallback' defined but not used [-Wunused-function]
+ static void vTimerCallback( TimerHandle_t pxTimer )
+             ^~~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/rtos_software_timer.o] Error 1
+12:33:11 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+../src/rtos_software_timer.c: In function 'vTimerCallback':
+../src/rtos_software_timer.c:359:6: error: 'RxtaskCntr' undeclared (first use in this function)
+  if (RxtaskCntr >= TIMER_CHECK_THRESHOLD) {
+      ^~~~~~~~~~
+../src/rtos_software_timer.c:359:6: note: each undeclared identifier is reported only once for each function it appears in
+At top level:
+../src/rtos_software_timer.c:343:13: warning: 'vTimerCallback' defined but not used [-Wunused-function]
+ static void vTimerCallback( TimerHandle_t pxTimer )
+             ^~~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/rtos_software_timer.o] Error 1
+12:33:45 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+../src/rtos_software_timer.c:344:13: warning: 'vTimerCallback' defined but not used [-Wunused-function]
+ static void vTimerCallback( TimerHandle_t pxTimer )
+             ^~~~~~~~~~~~~~
+'Finished building: ../src/rtos_software_timer.c'
+' '
+'Building target: rtos_software_timer.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rtos_software_timer_bsp/ps7_cortexa9_0/lib -o "rtos_software_timer.elf"  ./src/rtos_software_timer.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: rtos_software_timer.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rtos_software_timer.elf  |tee "rtos_software_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79492	   3408	  89456	 172356	  2a144	rtos_software_timer.elf
+'Finished building: rtos_software_timer.elf.size'
+' '
+12:36:00 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+../src/rtos_software_timer.c: In function 'main':
+../src/rtos_software_timer.c:192:3: error: 'xTimer' undeclared (first use in this function)
+   xTimer = xTimerCreate( (const char *) "Timer",
+   ^~~~~~
+../src/rtos_software_timer.c:192:3: note: each undeclared identifier is reported only once for each function it appears in
+../src/rtos_software_timer.c:193:9: error: 'x10seconds' undeclared (first use in this function)
+         x10seconds,
+         ^~~~~~~~~~
+At top level:
+../src/rtos_software_timer.c:240:13: warning: 'prvTIMERtask' defined but not used [-Wunused-function]
+ static void prvTIMERtask( void *pvParameters )
+             ^~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/rtos_software_timer.o] Error 1
+12:36:46 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+../src/rtos_software_timer.c: In function 'main':
+../src/rtos_software_timer.c:192:3: error: 'xTimer' undeclared (first use in this function)
+   xTimer = xTimerCreate( (const char *) "Timer",
+   ^~~~~~
+../src/rtos_software_timer.c:192:3: note: each undeclared identifier is reported only once for each function it appears in
+../src/rtos_software_timer.c:193:9: error: 'x10seconds' undeclared (first use in this function)
+         x10seconds,
+         ^~~~~~~~~~
+At top level:
+../src/rtos_software_timer.c:240:13: warning: 'prvTIMERtask' defined but not used [-Wunused-function]
+ static void prvTIMERtask( void *pvParameters )
+             ^~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/rtos_software_timer.o] Error 1
+12:37:00 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+../src/rtos_software_timer.c: In function 'main':
+../src/rtos_software_timer.c:192:3: error: 'xTimer' undeclared (first use in this function)
+   xTimer = xTimerCreate( (const char *) "Timer",
+   ^~~~~~
+../src/rtos_software_timer.c:192:3: note: each undeclared identifier is reported only once for each function it appears in
+../src/rtos_software_timer.c:193:9: error: 'x10seconds' undeclared (first use in this function)
+         x10seconds,
+         ^~~~~~~~~~
+At top level:
+../src/rtos_software_timer.c:240:13: warning: 'prvTIMERtask' defined but not used [-Wunused-function]
+ static void prvTIMERtask( void *pvParameters )
+             ^~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/rtos_software_timer.o] Error 1
+12:38:30 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+../src/rtos_software_timer.c: In function 'main':
+../src/rtos_software_timer.c:191:3: error: 'xTimer' undeclared (first use in this function)
+   xTimer = xTimerCreate( (const char *) "Timer",
+   ^~~~~~
+../src/rtos_software_timer.c:191:3: note: each undeclared identifier is reported only once for each function it appears in
+../src/rtos_software_timer.c:192:9: error: 'x10seconds' undeclared (first use in this function)
+         x10seconds,
+         ^~~~~~~~~~
+At top level:
+../src/rtos_software_timer.c:239:13: warning: 'prvTIMERtask' defined but not used [-Wunused-function]
+ static void prvTIMERtask( void *pvParameters )
+             ^~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/rtos_software_timer.o] Error 1
+12:39:03 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+../src/rtos_software_timer.c: In function 'main':
+../src/rtos_software_timer.c:190:3: error: 'xTimer' undeclared (first use in this function)
+   xTimer = xTimerCreate( (const char *) "Timer",
+   ^~~~~~
+../src/rtos_software_timer.c:190:3: note: each undeclared identifier is reported only once for each function it appears in
+../src/rtos_software_timer.c:191:9: error: 'x10seconds' undeclared (first use in this function)
+         x10seconds,
+         ^~~~~~~~~~
+../src/rtos_software_timer.c: In function 'prvBTNtask':
+../src/rtos_software_timer.c:287:18: error: 'xTIMERtask' undeclared (first use in this function); did you mean 'vTIMERtask'?
+      vTaskResume(xTIMERtask);
+                  ^~~~~~~~~~
+                  vTIMERtask
+../src/rtos_software_timer.c: In function 'prvSWtask':
+../src/rtos_software_timer.c:340:17: error: 'xTIMERtask' undeclared (first use in this function); did you mean 'vTIMERtask'?
+    vTaskSuspend(xTIMERtask);
+                 ^~~~~~~~~~
+                 vTIMERtask
+../src/rtos_software_timer.c: In function 'vTIMERtask':
+../src/rtos_software_timer.c:369:6: error: 'RxtaskCntr' undeclared (first use in this function)
+  if (RxtaskCntr >= TIMER_TASK_CHECK_THRESHOLD) {
+      ^~~~~~~~~~
+At top level:
+../src/rtos_software_timer.c:238:13: warning: 'prvTIMERtask' defined but not used [-Wunused-function]
+ static void prvTIMERtask( void *pvParameters )
+             ^~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/rtos_software_timer.o] Error 1
+12:39:16 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+../src/rtos_software_timer.c: In function 'main':
+../src/rtos_software_timer.c:191:3: error: 'xTimer' undeclared (first use in this function)
+   xTimer = xTimerCreate( (const char *) "Timer",
+   ^~~~~~
+../src/rtos_software_timer.c:191:3: note: each undeclared identifier is reported only once for each function it appears in
+../src/rtos_software_timer.c:192:9: error: 'x10seconds' undeclared (first use in this function)
+         x10seconds,
+         ^~~~~~~~~~
+At top level:
+../src/rtos_software_timer.c:239:13: warning: 'prvTIMERtask' defined but not used [-Wunused-function]
+ static void prvTIMERtask( void *pvParameters )
+             ^~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/rtos_software_timer.o] Error 1
+12:40:14 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+../src/rtos_software_timer.c: In function 'main':
+../src/rtos_software_timer.c:193:9: error: 'x10seconds' undeclared (first use in this function)
+         x10seconds,
+         ^~~~~~~~~~
+../src/rtos_software_timer.c:193:9: note: each undeclared identifier is reported only once for each function it appears in
+At top level:
+../src/rtos_software_timer.c:240:13: warning: 'prvTIMERtask' defined but not used [-Wunused-function]
+ static void prvTIMERtask( void *pvParameters )
+             ^~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/rtos_software_timer.o] Error 1
+12:40:54 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+In file included from ../../rtos_software_timer_bsp/ps7_cortexa9_0/include/FreeRTOS.h:59,
+                 from ../src/rtos_software_timer.c:83:
+../src/rtos_software_timer.c: In function 'main':
+../src/rtos_software_timer.c:157:47: error: 'DELAY_10_SECONDS' undeclared (first use in this function)
+  const TickType_t x10seconds = pdMS_TO_TICKS( DELAY_10_SECONDS );
+                                               ^~~~~~~~~~~~~~~~
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/projdefs.h:41:75: note: in definition of macro 'pdMS_TO_TICKS'
+  #define pdMS_TO_TICKS( xTimeInMs ) ( ( TickType_t ) ( ( ( TickType_t ) ( xTimeInMs ) * ( TickType_t ) configTICK_RATE_HZ ) / ( TickType_t ) 1000 ) )
+                                                                           ^~~~~~~~~
+../src/rtos_software_timer.c:157:47: note: each undeclared identifier is reported only once for each function it appears in
+  const TickType_t x10seconds = pdMS_TO_TICKS( DELAY_10_SECONDS );
+                                               ^~~~~~~~~~~~~~~~
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/projdefs.h:41:75: note: in definition of macro 'pdMS_TO_TICKS'
+  #define pdMS_TO_TICKS( xTimeInMs ) ( ( TickType_t ) ( ( ( TickType_t ) ( xTimeInMs ) * ( TickType_t ) configTICK_RATE_HZ ) / ( TickType_t ) 1000 ) )
+                                                                           ^~~~~~~~~
+At top level:
+../src/rtos_software_timer.c:241:13: warning: 'prvTIMERtask' defined but not used [-Wunused-function]
+ static void prvTIMERtask( void *pvParameters )
+             ^~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/rtos_software_timer.o] Error 1
+12:41:14 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+../src/rtos_software_timer.c:242:13: warning: 'prvTIMERtask' defined but not used [-Wunused-function]
+ static void prvTIMERtask( void *pvParameters )
+             ^~~~~~~~~~~~
+'Finished building: ../src/rtos_software_timer.c'
+' '
+'Building target: rtos_software_timer.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rtos_software_timer_bsp/ps7_cortexa9_0/lib -o "rtos_software_timer.elf"  ./src/rtos_software_timer.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: rtos_software_timer.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rtos_software_timer.elf  |tee "rtos_software_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79620	   3408	  89456	 172484	  2a1c4	rtos_software_timer.elf
+'Finished building: rtos_software_timer.elf.size'
+' '
+12:41:21 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+../src/rtos_software_timer.c:242:13: warning: 'prvTIMERtask' defined but not used [-Wunused-function]
+ static void prvTIMERtask( void *pvParameters )
+             ^~~~~~~~~~~~
+'Finished building: ../src/rtos_software_timer.c'
+' '
+'Building target: rtos_software_timer.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rtos_software_timer_bsp/ps7_cortexa9_0/lib -o "rtos_software_timer.elf"  ./src/rtos_software_timer.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: rtos_software_timer.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rtos_software_timer.elf  |tee "rtos_software_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79620	   3408	  89456	 172484	  2a1c4	rtos_software_timer.elf
+'Finished building: rtos_software_timer.elf.size'
+' '
+12:42:46 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+../src/rtos_software_timer.c: In function 'prvBTNtask':
+../src/rtos_software_timer.c:290:18: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskResume(xTIMERtask);
+                  ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+../src/rtos_software_timer.c:297:19: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskSuspend(xTIMERtask);
+                   ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c: In function 'prvSWtask':
+../src/rtos_software_timer.c:343:17: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+    vTaskSuspend(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c:347:17: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+     vTaskResume(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+At top level:
+../src/rtos_software_timer.c:241:13: warning: 'prvTIMERtask' defined but not used [-Wunused-function]
+ static void prvTIMERtask( void *pvParameters )
+             ^~~~~~~~~~~~
+'Finished building: ../src/rtos_software_timer.c'
+' '
+'Building target: rtos_software_timer.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rtos_software_timer_bsp/ps7_cortexa9_0/lib -o "rtos_software_timer.elf"  ./src/rtos_software_timer.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: rtos_software_timer.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rtos_software_timer.elf  |tee "rtos_software_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79620	   3408	  89456	 172484	  2a1c4	rtos_software_timer.elf
+'Finished building: rtos_software_timer.elf.size'
+' '
+12:43:52 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+../src/rtos_software_timer.c: In function 'prvBTNtask':
+../src/rtos_software_timer.c:290:18: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskResume(xTIMERtask);
+                  ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+../src/rtos_software_timer.c:297:19: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskSuspend(xTIMERtask);
+                   ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c: In function 'prvSWtask':
+../src/rtos_software_timer.c:343:17: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+    vTaskSuspend(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c:347:17: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+     vTaskResume(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+At top level:
+../src/rtos_software_timer.c:241:13: warning: 'prvTIMERtask' defined but not used [-Wunused-function]
+ static void prvTIMERtask( void *pvParameters )
+             ^~~~~~~~~~~~
+'Finished building: ../src/rtos_software_timer.c'
+' '
+'Building target: rtos_software_timer.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rtos_software_timer_bsp/ps7_cortexa9_0/lib -o "rtos_software_timer.elf"  ./src/rtos_software_timer.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: rtos_software_timer.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rtos_software_timer.elf  |tee "rtos_software_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79620	   3408	  89456	 172484	  2a1c4	rtos_software_timer.elf
+'Finished building: rtos_software_timer.elf.size'
+' '
+12:49:32 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+../src/rtos_software_timer.c: In function 'prvBTNtask':
+../src/rtos_software_timer.c:289:18: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskResume(xTIMERtask);
+                  ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+../src/rtos_software_timer.c:296:19: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskSuspend(xTIMERtask);
+                   ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c: In function 'prvSWtask':
+../src/rtos_software_timer.c:342:17: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+    vTaskSuspend(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c:346:17: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+     vTaskResume(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+At top level:
+../src/rtos_software_timer.c:240:13: warning: 'prvTIMERtask' defined but not used [-Wunused-function]
+ static void prvTIMERtask( void *pvParameters )
+             ^~~~~~~~~~~~
+'Finished building: ../src/rtos_software_timer.c'
+' '
+'Building target: rtos_software_timer.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rtos_software_timer_bsp/ps7_cortexa9_0/lib -o "rtos_software_timer.elf"  ./src/rtos_software_timer.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: rtos_software_timer.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rtos_software_timer.elf  |tee "rtos_software_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79620	   3408	  89456	 172484	  2a1c4	rtos_software_timer.elf
+'Finished building: rtos_software_timer.elf.size'
+' '
+12:49:58 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+../src/rtos_software_timer.c: In function 'prvBTNtask':
+../src/rtos_software_timer.c:289:18: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskResume(xTIMERtask);
+                  ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+../src/rtos_software_timer.c:296:19: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskSuspend(xTIMERtask);
+                   ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c: In function 'prvSWtask':
+../src/rtos_software_timer.c:342:17: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+    vTaskSuspend(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c:346:17: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+     vTaskResume(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+At top level:
+../src/rtos_software_timer.c:240:13: warning: 'prvTIMERtask' defined but not used [-Wunused-function]
+ static void prvTIMERtask( void *pvParameters )
+             ^~~~~~~~~~~~
+'Finished building: ../src/rtos_software_timer.c'
+' '
+'Building target: rtos_software_timer.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rtos_software_timer_bsp/ps7_cortexa9_0/lib -o "rtos_software_timer.elf"  ./src/rtos_software_timer.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: rtos_software_timer.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rtos_software_timer.elf  |tee "rtos_software_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79620	   3408	  89456	 172484	  2a1c4	rtos_software_timer.elf
+'Finished building: rtos_software_timer.elf.size'
+' '
+12:51:01 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+../src/rtos_software_timer.c: In function 'main':
+../src/rtos_software_timer.c:157:18: error: assignment of read-only variable 'xTIMERtaskTicks'
+  xTIMERtaskTicks = pdMS_TO_TICKS( TIMER_DELAY );
+                  ^
+../src/rtos_software_timer.c: In function 'prvBTNtask':
+../src/rtos_software_timer.c:290:18: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskResume(xTIMERtask);
+                  ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+../src/rtos_software_timer.c:297:19: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskSuspend(xTIMERtask);
+                   ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c: In function 'prvSWtask':
+../src/rtos_software_timer.c:343:17: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+    vTaskSuspend(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c:347:17: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+     vTaskResume(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+At top level:
+../src/rtos_software_timer.c:241:13: warning: 'prvTIMERtask' defined but not used [-Wunused-function]
+ static void prvTIMERtask( void *pvParameters )
+             ^~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/rtos_software_timer.o] Error 1
+12:51:18 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+../src/rtos_software_timer.c: In function 'main':
+../src/rtos_software_timer.c:157:18: error: assignment of read-only variable 'xTIMERtaskTicks'
+  xTIMERtaskTicks = pdMS_TO_TICKS( TIMER_DELAY );
+                  ^
+../src/rtos_software_timer.c: In function 'prvBTNtask':
+../src/rtos_software_timer.c:290:18: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskResume(xTIMERtask);
+                  ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+../src/rtos_software_timer.c:297:19: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskSuspend(xTIMERtask);
+                   ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c: In function 'prvSWtask':
+../src/rtos_software_timer.c:343:17: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+    vTaskSuspend(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c:347:17: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+     vTaskResume(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+At top level:
+../src/rtos_software_timer.c:241:13: warning: 'prvTIMERtask' defined but not used [-Wunused-function]
+ static void prvTIMERtask( void *pvParameters )
+             ^~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/rtos_software_timer.o] Error 1
+12:51:33 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+../src/rtos_software_timer.c: In function 'main':
+../src/rtos_software_timer.c:156:26: error: 'xTIMERtaskTicks' has both 'extern' and initializer
+  extern const TickType_t xTIMERtaskTicks = pdMS_TO_TICKS( TIMER_DELAY );
+                          ^~~~~~~~~~~~~~~
+../src/rtos_software_timer.c: In function 'prvBTNtask':
+../src/rtos_software_timer.c:289:18: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskResume(xTIMERtask);
+                  ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+../src/rtos_software_timer.c:296:19: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskSuspend(xTIMERtask);
+                   ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c: In function 'prvSWtask':
+../src/rtos_software_timer.c:342:17: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+    vTaskSuspend(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c:346:17: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+     vTaskResume(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+At top level:
+../src/rtos_software_timer.c:240:13: warning: 'prvTIMERtask' defined but not used [-Wunused-function]
+ static void prvTIMERtask( void *pvParameters )
+             ^~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/rtos_software_timer.o] Error 1
+12:51:48 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+../src/rtos_software_timer.c: In function 'prvBTNtask':
+../src/rtos_software_timer.c:289:18: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskResume(xTIMERtask);
+                  ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+../src/rtos_software_timer.c:296:19: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskSuspend(xTIMERtask);
+                   ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c: In function 'prvSWtask':
+../src/rtos_software_timer.c:342:17: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+    vTaskSuspend(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c:346:17: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+     vTaskResume(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+At top level:
+../src/rtos_software_timer.c:240:13: warning: 'prvTIMERtask' defined but not used [-Wunused-function]
+ static void prvTIMERtask( void *pvParameters )
+             ^~~~~~~~~~~~
+'Finished building: ../src/rtos_software_timer.c'
+' '
+'Building target: rtos_software_timer.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rtos_software_timer_bsp/ps7_cortexa9_0/lib -o "rtos_software_timer.elf"  ./src/rtos_software_timer.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: rtos_software_timer.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rtos_software_timer.elf  |tee "rtos_software_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79620	   3408	  89456	 172484	  2a1c4	rtos_software_timer.elf
+'Finished building: rtos_software_timer.elf.size'
+' '
+12:52:59 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+../src/rtos_software_timer.c: In function 'prvBTNtask':
+../src/rtos_software_timer.c:289:18: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskResume(xTIMERtask);
+                  ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+../src/rtos_software_timer.c:296:19: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskSuspend(xTIMERtask);
+                   ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c: In function 'prvSWtask':
+../src/rtos_software_timer.c:342:17: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+    vTaskSuspend(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c:346:17: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+     vTaskResume(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+At top level:
+../src/rtos_software_timer.c:240:13: warning: 'prvTIMERtask' defined but not used [-Wunused-function]
+ static void prvTIMERtask( void *pvParameters )
+             ^~~~~~~~~~~~
+'Finished building: ../src/rtos_software_timer.c'
+' '
+'Building target: rtos_software_timer.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rtos_software_timer_bsp/ps7_cortexa9_0/lib -o "rtos_software_timer.elf"  ./src/rtos_software_timer.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: rtos_software_timer.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rtos_software_timer.elf  |tee "rtos_software_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79620	   3408	  89456	 172484	  2a1c4	rtos_software_timer.elf
+'Finished building: rtos_software_timer.elf.size'
+' '
+12:55:21 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+../src/rtos_software_timer.c: In function 'prvBTNtask':
+../src/rtos_software_timer.c:289:18: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskResume(xTIMERtask);
+                  ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+../src/rtos_software_timer.c:296:19: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskSuspend(xTIMERtask);
+                   ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c: At top level:
+../src/rtos_software_timer.c:320:13: error: redefinition of 'prvSWtask'
+ static void prvSWtask( void *pvParameters )
+             ^~~~~~~~~
+../src/rtos_software_timer.c:240:13: note: previous definition of 'prvSWtask' was here
+ static void prvSWtask( void *pvParameters )
+             ^~~~~~~~~
+../src/rtos_software_timer.c: In function 'prvSWtask':
+../src/rtos_software_timer.c:342:17: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+    vTaskSuspend(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c:346:17: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+     vTaskResume(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+../src/rtos_software_timer.c: At top level:
+../src/rtos_software_timer.c:140:13: warning: 'vTIMERtask' used but never defined
+ static void vTIMERtask( TimerHandle_t pxTimer );
+             ^~~~~~~~~~
+../src/rtos_software_timer.c:355:13: warning: 'a' defined but not used [-Wunused-function]
+ static void a( TimerHandle_t pxTimer )
+             ^
+../src/rtos_software_timer.c:320:13: warning: 'prvSWtask' defined but not used [-Wunused-function]
+ static void prvSWtask( void *pvParameters )
+             ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/rtos_software_timer.o] Error 1
+12:58:04 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+../src/rtos_software_timer.c: In function 'prvBTNtask':
+../src/rtos_software_timer.c:312:18: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskResume(xTIMERtask);
+                  ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+../src/rtos_software_timer.c:319:19: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskSuspend(xTIMERtask);
+                   ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c: In function 'prvSWtask':
+../src/rtos_software_timer.c:365:17: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+    vTaskSuspend(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c:369:17: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+     vTaskResume(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+'Finished building: ../src/rtos_software_timer.c'
+' '
+'Building target: rtos_software_timer.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rtos_software_timer_bsp/ps7_cortexa9_0/lib -o "rtos_software_timer.elf"  ./src/rtos_software_timer.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: rtos_software_timer.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rtos_software_timer.elf  |tee "rtos_software_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79524	   3408	  89456	 172388	  2a164	rtos_software_timer.elf
+'Finished building: rtos_software_timer.elf.size'
+' '
+12:58:08 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+../src/rtos_software_timer.c: In function 'prvBTNtask':
+../src/rtos_software_timer.c:313:18: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskResume(xTIMERtask);
+                  ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+../src/rtos_software_timer.c:320:19: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskSuspend(xTIMERtask);
+                   ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c: In function 'prvSWtask':
+../src/rtos_software_timer.c:366:17: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+    vTaskSuspend(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c:370:17: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+     vTaskResume(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+'Finished building: ../src/rtos_software_timer.c'
+' '
+'Building target: rtos_software_timer.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rtos_software_timer_bsp/ps7_cortexa9_0/lib -o "rtos_software_timer.elf"  ./src/rtos_software_timer.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: rtos_software_timer.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rtos_software_timer.elf  |tee "rtos_software_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79524	   3408	  89456	 172388	  2a164	rtos_software_timer.elf
+'Finished building: rtos_software_timer.elf.size'
+' '
+13:00:39 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+../src/rtos_software_timer.c: In function 'prvBTNtask':
+../src/rtos_software_timer.c:313:18: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskResume(xTIMERtask);
+                  ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+../src/rtos_software_timer.c:320:19: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskSuspend(xTIMERtask);
+                   ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c: In function 'prvSWtask':
+../src/rtos_software_timer.c:366:17: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+    vTaskSuspend(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c:370:17: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+     vTaskResume(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+'Finished building: ../src/rtos_software_timer.c'
+' '
+'Building target: rtos_software_timer.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rtos_software_timer_bsp/ps7_cortexa9_0/lib -o "rtos_software_timer.elf"  ./src/rtos_software_timer.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: rtos_software_timer.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rtos_software_timer.elf  |tee "rtos_software_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79524	   3408	  89456	 172388	  2a164	rtos_software_timer.elf
+'Finished building: rtos_software_timer.elf.size'
+' '
+13:00:50 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+../src/rtos_software_timer.c: In function 'prvBTNtask':
+../src/rtos_software_timer.c:313:18: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskResume(xTIMERtask);
+                  ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+../src/rtos_software_timer.c:320:19: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskSuspend(xTIMERtask);
+                   ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c: In function 'prvSWtask':
+../src/rtos_software_timer.c:366:17: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+    vTaskSuspend(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c:370:17: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+     vTaskResume(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+'Finished building: ../src/rtos_software_timer.c'
+' '
+'Building target: rtos_software_timer.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rtos_software_timer_bsp/ps7_cortexa9_0/lib -o "rtos_software_timer.elf"  ./src/rtos_software_timer.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: rtos_software_timer.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rtos_software_timer.elf  |tee "rtos_software_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79532	   3408	  89456	 172396	  2a16c	rtos_software_timer.elf
+'Finished building: rtos_software_timer.elf.size'
+' '
+13:09:39 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+In file included from ../src/rtos_software_timer.c:86:
+../src/rtos_software_timer.c: In function 'vTIMERtask':
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/timers.h:788:67: warning: passing argument 1 of 'xTimerGenericCommand' from incompatible pointer type [-Wincompatible-pointer-types]
+ #define xTimerReset( xTimer, xTicksToWait ) xTimerGenericCommand( ( xTimer ), tmrCOMMAND_RESET, ( xTaskGetTickCount() ), NULL, ( xTicksToWait ) )
+                                                                   ^~~~~~~~~~
+../src/rtos_software_timer.c:265:3: note: in expansion of macro 'xTimerReset'
+   xTimerReset( vTIMERtask, LEDseconds );
+   ^~~~~~~~~~~
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/timers.h:1265:48: note: expected 'TimerHandle_t' {aka 'struct tmrTimerControl *'} but argument is of type 'void (*)(struct tmrTimerControl *)'
+ BaseType_t xTimerGenericCommand( TimerHandle_t xTimer, const BaseType_t xCommandID, const TickType_t xOptionalValue, BaseType_t * const pxHigherPriorityTaskWoken, const TickType_t xTicksToWait ) PRIVILEGED_FUNCTION;
+                                  ~~~~~~~~~~~~~~^~~~~~
+../src/rtos_software_timer.c: In function 'prvBTNtask':
+../src/rtos_software_timer.c:312:18: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskResume(xTIMERtask);
+                  ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+../src/rtos_software_timer.c:319:19: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskSuspend(xTIMERtask);
+                   ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c: In function 'prvSWtask':
+../src/rtos_software_timer.c:365:17: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+    vTaskSuspend(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c:369:17: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+     vTaskResume(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+'Finished building: ../src/rtos_software_timer.c'
+' '
+'Building target: rtos_software_timer.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rtos_software_timer_bsp/ps7_cortexa9_0/lib -o "rtos_software_timer.elf"  ./src/rtos_software_timer.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: rtos_software_timer.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rtos_software_timer.elf  |tee "rtos_software_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79532	   3408	  89456	 172396	  2a16c	rtos_software_timer.elf
+'Finished building: rtos_software_timer.elf.size'
+' '
+13:09:51 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+In file included from ../src/rtos_software_timer.c:86:
+../src/rtos_software_timer.c: In function 'vTIMERtask':
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/timers.h:788:67: warning: passing argument 1 of 'xTimerGenericCommand' from incompatible pointer type [-Wincompatible-pointer-types]
+ #define xTimerReset( xTimer, xTicksToWait ) xTimerGenericCommand( ( xTimer ), tmrCOMMAND_RESET, ( xTaskGetTickCount() ), NULL, ( xTicksToWait ) )
+                                                                   ^~~~~~~~~~
+../src/rtos_software_timer.c:265:3: note: in expansion of macro 'xTimerReset'
+   xTimerReset( vTIMERtask, LEDseconds );
+   ^~~~~~~~~~~
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/timers.h:1265:48: note: expected 'TimerHandle_t' {aka 'struct tmrTimerControl *'} but argument is of type 'void (*)(struct tmrTimerControl *)'
+ BaseType_t xTimerGenericCommand( TimerHandle_t xTimer, const BaseType_t xCommandID, const TickType_t xOptionalValue, BaseType_t * const pxHigherPriorityTaskWoken, const TickType_t xTicksToWait ) PRIVILEGED_FUNCTION;
+                                  ~~~~~~~~~~~~~~^~~~~~
+../src/rtos_software_timer.c: In function 'prvBTNtask':
+../src/rtos_software_timer.c:312:18: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskResume(xTIMERtask);
+                  ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+../src/rtos_software_timer.c:319:19: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskSuspend(xTIMERtask);
+                   ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c: In function 'prvSWtask':
+../src/rtos_software_timer.c:365:17: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+    vTaskSuspend(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c:369:17: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+     vTaskResume(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+'Finished building: ../src/rtos_software_timer.c'
+' '
+'Building target: rtos_software_timer.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rtos_software_timer_bsp/ps7_cortexa9_0/lib -o "rtos_software_timer.elf"  ./src/rtos_software_timer.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: rtos_software_timer.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rtos_software_timer.elf  |tee "rtos_software_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79532	   3408	  89456	 172396	  2a16c	rtos_software_timer.elf
+'Finished building: rtos_software_timer.elf.size'
+' '
+13:09:59 **** Incremental Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:14:31 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+In file included from ../src/rtos_software_timer.c:86:
+../src/rtos_software_timer.c: In function 'vTIMERtask':
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/timers.h:788:67: warning: passing argument 1 of 'xTimerGenericCommand' from incompatible pointer type [-Wincompatible-pointer-types]
+ #define xTimerReset( xTimer, xTicksToWait ) xTimerGenericCommand( ( xTimer ), tmrCOMMAND_RESET, ( xTaskGetTickCount() ), NULL, ( xTicksToWait ) )
+                                                                   ^~~~~~~~~~
+../src/rtos_software_timer.c:265:3: note: in expansion of macro 'xTimerReset'
+   xTimerReset( vTIMERtask, 0 );//LEDseconds );
+   ^~~~~~~~~~~
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/timers.h:1265:48: note: expected 'TimerHandle_t' {aka 'struct tmrTimerControl *'} but argument is of type 'void (*)(struct tmrTimerControl *)'
+ BaseType_t xTimerGenericCommand( TimerHandle_t xTimer, const BaseType_t xCommandID, const TickType_t xOptionalValue, BaseType_t * const pxHigherPriorityTaskWoken, const TickType_t xTicksToWait ) PRIVILEGED_FUNCTION;
+                                  ~~~~~~~~~~~~~~^~~~~~
+../src/rtos_software_timer.c:240:25: warning: unused variable 'LEDseconds' [-Wunused-variable]
+ static const TickType_t LEDseconds = pdMS_TO_TICKS( TIMER_DELAY );
+                         ^~~~~~~~~~
+../src/rtos_software_timer.c: In function 'prvBTNtask':
+../src/rtos_software_timer.c:312:18: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskResume(xTIMERtask);
+                  ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+../src/rtos_software_timer.c:319:19: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskSuspend(xTIMERtask);
+                   ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c: In function 'prvSWtask':
+../src/rtos_software_timer.c:365:17: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+    vTaskSuspend(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c:369:17: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+     vTaskResume(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+At top level:
+../src/rtos_software_timer.c:240:25: warning: 'LEDseconds' defined but not used [-Wunused-const-variable=]
+ static const TickType_t LEDseconds = pdMS_TO_TICKS( TIMER_DELAY );
+                         ^~~~~~~~~~
+'Finished building: ../src/rtos_software_timer.c'
+' '
+'Building target: rtos_software_timer.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rtos_software_timer_bsp/ps7_cortexa9_0/lib -o "rtos_software_timer.elf"  ./src/rtos_software_timer.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: rtos_software_timer.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rtos_software_timer.elf  |tee "rtos_software_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79532	   3408	  89456	 172396	  2a16c	rtos_software_timer.elf
+'Finished building: rtos_software_timer.elf.size'
+' '
+13:14:39 **** Incremental Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:15:04 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+In file included from ../src/rtos_software_timer.c:86:
+../src/rtos_software_timer.c: In function 'vTIMERtask':
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/timers.h:788:67: warning: passing argument 1 of 'xTimerGenericCommand' from incompatible pointer type [-Wincompatible-pointer-types]
+ #define xTimerReset( xTimer, xTicksToWait ) xTimerGenericCommand( ( xTimer ), tmrCOMMAND_RESET, ( xTaskGetTickCount() ), NULL, ( xTicksToWait ) )
+                                                                   ^~~~~~~~~~
+../src/rtos_software_timer.c:268:3: note: in expansion of macro 'xTimerReset'
+   xTimerReset( vTIMERtask, 0 );//LEDseconds );
+   ^~~~~~~~~~~
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/timers.h:1265:48: note: expected 'TimerHandle_t' {aka 'struct tmrTimerControl *'} but argument is of type 'void (*)(struct tmrTimerControl *)'
+ BaseType_t xTimerGenericCommand( TimerHandle_t xTimer, const BaseType_t xCommandID, const TickType_t xOptionalValue, BaseType_t * const pxHigherPriorityTaskWoken, const TickType_t xTicksToWait ) PRIVILEGED_FUNCTION;
+                                  ~~~~~~~~~~~~~~^~~~~~
+../src/rtos_software_timer.c:240:25: warning: unused variable 'LEDseconds' [-Wunused-variable]
+ static const TickType_t LEDseconds = pdMS_TO_TICKS( TIMER_DELAY );
+                         ^~~~~~~~~~
+../src/rtos_software_timer.c: In function 'prvBTNtask':
+../src/rtos_software_timer.c:312:18: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskResume(xTIMERtask);
+                  ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+../src/rtos_software_timer.c:319:19: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskSuspend(xTIMERtask);
+                   ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c: In function 'prvSWtask':
+../src/rtos_software_timer.c:365:17: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+    vTaskSuspend(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c:369:17: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+     vTaskResume(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+At top level:
+../src/rtos_software_timer.c:240:25: warning: 'LEDseconds' defined but not used [-Wunused-const-variable=]
+ static const TickType_t LEDseconds = pdMS_TO_TICKS( TIMER_DELAY );
+                         ^~~~~~~~~~
+'Finished building: ../src/rtos_software_timer.c'
+' '
+'Building target: rtos_software_timer.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rtos_software_timer_bsp/ps7_cortexa9_0/lib -o "rtos_software_timer.elf"  ./src/rtos_software_timer.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: rtos_software_timer.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rtos_software_timer.elf  |tee "rtos_software_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79532	   3408	  89456	 172396	  2a16c	rtos_software_timer.elf
+'Finished building: rtos_software_timer.elf.size'
+' '
+13:15:11 **** Incremental Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:15:36 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+In file included from ../src/rtos_software_timer.c:86:
+../src/rtos_software_timer.c: In function 'vTIMERtask':
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/timers.h:788:67: warning: passing argument 1 of 'xTimerGenericCommand' from incompatible pointer type [-Wincompatible-pointer-types]
+ #define xTimerReset( xTimer, xTicksToWait ) xTimerGenericCommand( ( xTimer ), tmrCOMMAND_RESET, ( xTaskGetTickCount() ), NULL, ( xTicksToWait ) )
+                                                                   ^~~~~~~~~~
+../src/rtos_software_timer.c:268:3: note: in expansion of macro 'xTimerReset'
+   xTimerReset( vTIMERtask, LEDseconds );
+   ^~~~~~~~~~~
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/timers.h:1265:48: note: expected 'TimerHandle_t' {aka 'struct tmrTimerControl *'} but argument is of type 'void (*)(struct tmrTimerControl *)'
+ BaseType_t xTimerGenericCommand( TimerHandle_t xTimer, const BaseType_t xCommandID, const TickType_t xOptionalValue, BaseType_t * const pxHigherPriorityTaskWoken, const TickType_t xTicksToWait ) PRIVILEGED_FUNCTION;
+                                  ~~~~~~~~~~~~~~^~~~~~
+../src/rtos_software_timer.c: In function 'prvBTNtask':
+../src/rtos_software_timer.c:312:18: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskResume(xTIMERtask);
+                  ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+../src/rtos_software_timer.c:319:19: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskSuspend(xTIMERtask);
+                   ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c: In function 'prvSWtask':
+../src/rtos_software_timer.c:365:17: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+    vTaskSuspend(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c:369:17: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+     vTaskResume(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+'Finished building: ../src/rtos_software_timer.c'
+' '
+'Building target: rtos_software_timer.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rtos_software_timer_bsp/ps7_cortexa9_0/lib -o "rtos_software_timer.elf"  ./src/rtos_software_timer.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: rtos_software_timer.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rtos_software_timer.elf  |tee "rtos_software_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79532	   3408	  89456	 172396	  2a16c	rtos_software_timer.elf
+'Finished building: rtos_software_timer.elf.size'
+' '
+13:15:47 **** Incremental Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:18:03 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+In file included from ../src/rtos_software_timer.c:86:
+../src/rtos_software_timer.c: In function 'vTIMERtask':
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/timers.h:788:67: warning: passing argument 1 of 'xTimerGenericCommand' from incompatible pointer type [-Wincompatible-pointer-types]
+ #define xTimerReset( xTimer, xTicksToWait ) xTimerGenericCommand( ( xTimer ), tmrCOMMAND_RESET, ( xTaskGetTickCount() ), NULL, ( xTicksToWait ) )
+                                                                   ^~~~~~~~~~
+../src/rtos_software_timer.c:268:3: note: in expansion of macro 'xTimerReset'
+   xTimerReset( vTIMERtask, LEDseconds );
+   ^~~~~~~~~~~
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/timers.h:1265:48: note: expected 'TimerHandle_t' {aka 'struct tmrTimerControl *'} but argument is of type 'void (*)(struct tmrTimerControl *)'
+ BaseType_t xTimerGenericCommand( TimerHandle_t xTimer, const BaseType_t xCommandID, const TickType_t xOptionalValue, BaseType_t * const pxHigherPriorityTaskWoken, const TickType_t xTicksToWait ) PRIVILEGED_FUNCTION;
+                                  ~~~~~~~~~~~~~~^~~~~~
+../src/rtos_software_timer.c: In function 'prvBTNtask':
+../src/rtos_software_timer.c:312:18: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskResume(xTIMERtask);
+                  ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+../src/rtos_software_timer.c:319:19: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskSuspend(xTIMERtask);
+                   ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c: In function 'prvSWtask':
+../src/rtos_software_timer.c:365:17: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+    vTaskSuspend(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c:369:17: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+     vTaskResume(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+'Finished building: ../src/rtos_software_timer.c'
+' '
+'Building target: rtos_software_timer.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rtos_software_timer_bsp/ps7_cortexa9_0/lib -o "rtos_software_timer.elf"  ./src/rtos_software_timer.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: rtos_software_timer.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rtos_software_timer.elf  |tee "rtos_software_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79532	   3408	  89456	 172396	  2a16c	rtos_software_timer.elf
+'Finished building: rtos_software_timer.elf.size'
+' '
+13:18:28 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+In file included from ../src/rtos_software_timer.c:86:
+../src/rtos_software_timer.c: In function 'vTIMERtask':
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/timers.h:788:67: warning: passing argument 1 of 'xTimerGenericCommand' from incompatible pointer type [-Wincompatible-pointer-types]
+ #define xTimerReset( xTimer, xTicksToWait ) xTimerGenericCommand( ( xTimer ), tmrCOMMAND_RESET, ( xTaskGetTickCount() ), NULL, ( xTicksToWait ) )
+                                                                   ^~~~~~~~~~
+../src/rtos_software_timer.c:268:3: note: in expansion of macro 'xTimerReset'
+   xTimerReset( vTIMERtask, LEDseconds );
+   ^~~~~~~~~~~
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/timers.h:1265:48: note: expected 'TimerHandle_t' {aka 'struct tmrTimerControl *'} but argument is of type 'void (*)(struct tmrTimerControl *)'
+ BaseType_t xTimerGenericCommand( TimerHandle_t xTimer, const BaseType_t xCommandID, const TickType_t xOptionalValue, BaseType_t * const pxHigherPriorityTaskWoken, const TickType_t xTicksToWait ) PRIVILEGED_FUNCTION;
+                                  ~~~~~~~~~~~~~~^~~~~~
+../src/rtos_software_timer.c: In function 'prvBTNtask':
+../src/rtos_software_timer.c:312:18: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskResume(xTIMERtask);
+                  ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+../src/rtos_software_timer.c:319:19: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskSuspend(xTIMERtask);
+                   ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c: In function 'prvSWtask':
+../src/rtos_software_timer.c:365:17: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+    vTaskSuspend(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c:369:17: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+     vTaskResume(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+'Finished building: ../src/rtos_software_timer.c'
+' '
+'Building target: rtos_software_timer.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rtos_software_timer_bsp/ps7_cortexa9_0/lib -o "rtos_software_timer.elf"  ./src/rtos_software_timer.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: rtos_software_timer.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rtos_software_timer.elf  |tee "rtos_software_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79532	   3408	  89456	 172396	  2a16c	rtos_software_timer.elf
+'Finished building: rtos_software_timer.elf.size'
+' '
+13:18:39 **** Incremental Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:19:31 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+In file included from ../src/rtos_software_timer.c:86:
+../src/rtos_software_timer.c: In function 'vTIMERtask':
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/timers.h:788:67: warning: passing argument 1 of 'xTimerGenericCommand' from incompatible pointer type [-Wincompatible-pointer-types]
+ #define xTimerReset( xTimer, xTicksToWait ) xTimerGenericCommand( ( xTimer ), tmrCOMMAND_RESET, ( xTaskGetTickCount() ), NULL, ( xTicksToWait ) )
+                                                                   ^~~~~~~~~~
+../src/rtos_software_timer.c:266:2: note: in expansion of macro 'xTimerReset'
+  xTimerReset( vTIMERtask, LEDseconds );
+  ^~~~~~~~~~~
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/timers.h:1265:48: note: expected 'TimerHandle_t' {aka 'struct tmrTimerControl *'} but argument is of type 'void (*)(struct tmrTimerControl *)'
+ BaseType_t xTimerGenericCommand( TimerHandle_t xTimer, const BaseType_t xCommandID, const TickType_t xOptionalValue, BaseType_t * const pxHigherPriorityTaskWoken, const TickType_t xTicksToWait ) PRIVILEGED_FUNCTION;
+                                  ~~~~~~~~~~~~~~^~~~~~
+../src/rtos_software_timer.c: In function 'prvBTNtask':
+../src/rtos_software_timer.c:309:18: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskResume(xTIMERtask);
+                  ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+../src/rtos_software_timer.c:316:19: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskSuspend(xTIMERtask);
+                   ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c: In function 'prvSWtask':
+../src/rtos_software_timer.c:362:17: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+    vTaskSuspend(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c:366:17: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+     vTaskResume(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+'Finished building: ../src/rtos_software_timer.c'
+' '
+'Building target: rtos_software_timer.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rtos_software_timer_bsp/ps7_cortexa9_0/lib -o "rtos_software_timer.elf"  ./src/rtos_software_timer.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: rtos_software_timer.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rtos_software_timer.elf  |tee "rtos_software_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79532	   3408	  89456	 172396	  2a16c	rtos_software_timer.elf
+'Finished building: rtos_software_timer.elf.size'
+' '
+13:19:34 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+In file included from ../src/rtos_software_timer.c:86:
+../src/rtos_software_timer.c: In function 'vTIMERtask':
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/timers.h:788:67: warning: passing argument 1 of 'xTimerGenericCommand' from incompatible pointer type [-Wincompatible-pointer-types]
+ #define xTimerReset( xTimer, xTicksToWait ) xTimerGenericCommand( ( xTimer ), tmrCOMMAND_RESET, ( xTaskGetTickCount() ), NULL, ( xTicksToWait ) )
+                                                                   ^~~~~~~~~~
+../src/rtos_software_timer.c:266:2: note: in expansion of macro 'xTimerReset'
+  xTimerReset( vTIMERtask, LEDseconds );
+  ^~~~~~~~~~~
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/timers.h:1265:48: note: expected 'TimerHandle_t' {aka 'struct tmrTimerControl *'} but argument is of type 'void (*)(struct tmrTimerControl *)'
+ BaseType_t xTimerGenericCommand( TimerHandle_t xTimer, const BaseType_t xCommandID, const TickType_t xOptionalValue, BaseType_t * const pxHigherPriorityTaskWoken, const TickType_t xTicksToWait ) PRIVILEGED_FUNCTION;
+                                  ~~~~~~~~~~~~~~^~~~~~
+../src/rtos_software_timer.c: In function 'prvBTNtask':
+../src/rtos_software_timer.c:309:18: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskResume(xTIMERtask);
+                  ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+../src/rtos_software_timer.c:316:19: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskSuspend(xTIMERtask);
+                   ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c: In function 'prvSWtask':
+../src/rtos_software_timer.c:362:17: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+    vTaskSuspend(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c:366:17: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+     vTaskResume(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+'Finished building: ../src/rtos_software_timer.c'
+' '
+'Building target: rtos_software_timer.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rtos_software_timer_bsp/ps7_cortexa9_0/lib -o "rtos_software_timer.elf"  ./src/rtos_software_timer.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: rtos_software_timer.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rtos_software_timer.elf  |tee "rtos_software_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79532	   3408	  89456	 172396	  2a16c	rtos_software_timer.elf
+'Finished building: rtos_software_timer.elf.size'
+' '
+13:20:16 **** Incremental Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:20:39 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+In file included from ../src/rtos_software_timer.c:86:
+../src/rtos_software_timer.c: In function 'vTIMERtask':
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/timers.h:788:67: warning: passing argument 1 of 'xTimerGenericCommand' from incompatible pointer type [-Wincompatible-pointer-types]
+ #define xTimerReset( xTimer, xTicksToWait ) xTimerGenericCommand( ( xTimer ), tmrCOMMAND_RESET, ( xTaskGetTickCount() ), NULL, ( xTicksToWait ) )
+                                                                   ^~~~~~~~~~
+../src/rtos_software_timer.c:266:2: note: in expansion of macro 'xTimerReset'
+  xTimerReset( vTIMERtask, LEDseconds );
+  ^~~~~~~~~~~
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/timers.h:1265:48: note: expected 'TimerHandle_t' {aka 'struct tmrTimerControl *'} but argument is of type 'void (*)(struct tmrTimerControl *)'
+ BaseType_t xTimerGenericCommand( TimerHandle_t xTimer, const BaseType_t xCommandID, const TickType_t xOptionalValue, BaseType_t * const pxHigherPriorityTaskWoken, const TickType_t xTicksToWait ) PRIVILEGED_FUNCTION;
+                                  ~~~~~~~~~~~~~~^~~~~~
+../src/rtos_software_timer.c: In function 'prvBTNtask':
+../src/rtos_software_timer.c:309:18: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskResume(xTIMERtask);
+                  ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+../src/rtos_software_timer.c:316:19: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskSuspend(xTIMERtask);
+                   ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c: In function 'prvSWtask':
+../src/rtos_software_timer.c:362:17: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+    vTaskSuspend(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c:366:17: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+     vTaskResume(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:84:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+'Finished building: ../src/rtos_software_timer.c'
+' '
+'Building target: rtos_software_timer.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rtos_software_timer_bsp/ps7_cortexa9_0/lib -o "rtos_software_timer.elf"  ./src/rtos_software_timer.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: rtos_software_timer.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rtos_software_timer.elf  |tee "rtos_software_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79532	   3408	  89456	 172396	  2a16c	rtos_software_timer.elf
+'Finished building: rtos_software_timer.elf.size'
+' '
+13:20:46 **** Incremental Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:22:23 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+In file included from ../src/rtos_software_timer.c:89:
+../src/rtos_software_timer.c: In function 'vTIMERtask':
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/timers.h:788:67: warning: passing argument 1 of 'xTimerGenericCommand' from incompatible pointer type [-Wincompatible-pointer-types]
+ #define xTimerReset( xTimer, xTicksToWait ) xTimerGenericCommand( ( xTimer ), tmrCOMMAND_RESET, ( xTaskGetTickCount() ), NULL, ( xTicksToWait ) )
+                                                                   ^~~~~~~~~~
+../src/rtos_software_timer.c:269:2: note: in expansion of macro 'xTimerReset'
+  xTimerReset( vTIMERtask, LEDseconds );
+  ^~~~~~~~~~~
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/timers.h:1265:48: note: expected 'TimerHandle_t' {aka 'struct tmrTimerControl *'} but argument is of type 'void (*)(struct tmrTimerControl *)'
+ BaseType_t xTimerGenericCommand( TimerHandle_t xTimer, const BaseType_t xCommandID, const TickType_t xOptionalValue, BaseType_t * const pxHigherPriorityTaskWoken, const TickType_t xTicksToWait ) PRIVILEGED_FUNCTION;
+                                  ~~~~~~~~~~~~~~^~~~~~
+../src/rtos_software_timer.c: In function 'prvBTNtask':
+../src/rtos_software_timer.c:312:18: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskResume(xTIMERtask);
+                  ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:87:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+../src/rtos_software_timer.c:319:19: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskSuspend(xTIMERtask);
+                   ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:87:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c: In function 'prvSWtask':
+../src/rtos_software_timer.c:365:17: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+    vTaskSuspend(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:87:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c:369:17: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+     vTaskResume(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:87:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+'Finished building: ../src/rtos_software_timer.c'
+' '
+'Building target: rtos_software_timer.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rtos_software_timer_bsp/ps7_cortexa9_0/lib -o "rtos_software_timer.elf"  ./src/rtos_software_timer.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: rtos_software_timer.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rtos_software_timer.elf  |tee "rtos_software_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79532	   3408	  89456	 172396	  2a16c	rtos_software_timer.elf
+'Finished building: rtos_software_timer.elf.size'
+' '
+13:22:28 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+In file included from ../src/rtos_software_timer.c:89:
+../src/rtos_software_timer.c: In function 'vTIMERtask':
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/timers.h:788:67: warning: passing argument 1 of 'xTimerGenericCommand' from incompatible pointer type [-Wincompatible-pointer-types]
+ #define xTimerReset( xTimer, xTicksToWait ) xTimerGenericCommand( ( xTimer ), tmrCOMMAND_RESET, ( xTaskGetTickCount() ), NULL, ( xTicksToWait ) )
+                                                                   ^~~~~~~~~~
+../src/rtos_software_timer.c:269:2: note: in expansion of macro 'xTimerReset'
+  xTimerReset( vTIMERtask, LEDseconds );
+  ^~~~~~~~~~~
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/timers.h:1265:48: note: expected 'TimerHandle_t' {aka 'struct tmrTimerControl *'} but argument is of type 'void (*)(struct tmrTimerControl *)'
+ BaseType_t xTimerGenericCommand( TimerHandle_t xTimer, const BaseType_t xCommandID, const TickType_t xOptionalValue, BaseType_t * const pxHigherPriorityTaskWoken, const TickType_t xTicksToWait ) PRIVILEGED_FUNCTION;
+                                  ~~~~~~~~~~~~~~^~~~~~
+../src/rtos_software_timer.c: In function 'prvBTNtask':
+../src/rtos_software_timer.c:312:18: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskResume(xTIMERtask);
+                  ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:87:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+../src/rtos_software_timer.c:319:19: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskSuspend(xTIMERtask);
+                   ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:87:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c: In function 'prvSWtask':
+../src/rtos_software_timer.c:365:17: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+    vTaskSuspend(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:87:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c:369:17: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+     vTaskResume(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:87:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+'Finished building: ../src/rtos_software_timer.c'
+' '
+'Building target: rtos_software_timer.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rtos_software_timer_bsp/ps7_cortexa9_0/lib -o "rtos_software_timer.elf"  ./src/rtos_software_timer.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: rtos_software_timer.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rtos_software_timer.elf  |tee "rtos_software_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79532	   3408	  89456	 172396	  2a16c	rtos_software_timer.elf
+'Finished building: rtos_software_timer.elf.size'
+' '
+13:22:56 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+In file included from ../src/rtos_software_timer.c:89:
+../src/rtos_software_timer.c: In function 'vTIMERtask':
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/timers.h:788:67: warning: passing argument 1 of 'xTimerGenericCommand' from incompatible pointer type [-Wincompatible-pointer-types]
+ #define xTimerReset( xTimer, xTicksToWait ) xTimerGenericCommand( ( xTimer ), tmrCOMMAND_RESET, ( xTaskGetTickCount() ), NULL, ( xTicksToWait ) )
+                                                                   ^~~~~~~~~~
+../src/rtos_software_timer.c:269:2: note: in expansion of macro 'xTimerReset'
+  xTimerReset( vTIMERtask, LEDseconds );
+  ^~~~~~~~~~~
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/timers.h:1265:48: note: expected 'TimerHandle_t' {aka 'struct tmrTimerControl *'} but argument is of type 'void (*)(struct tmrTimerControl *)'
+ BaseType_t xTimerGenericCommand( TimerHandle_t xTimer, const BaseType_t xCommandID, const TickType_t xOptionalValue, BaseType_t * const pxHigherPriorityTaskWoken, const TickType_t xTicksToWait ) PRIVILEGED_FUNCTION;
+                                  ~~~~~~~~~~~~~~^~~~~~
+../src/rtos_software_timer.c: In function 'prvBTNtask':
+../src/rtos_software_timer.c:312:18: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskResume(xTIMERtask);
+                  ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:87:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+../src/rtos_software_timer.c:319:19: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskSuspend(xTIMERtask);
+                   ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:87:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c: In function 'prvSWtask':
+../src/rtos_software_timer.c:365:17: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+    vTaskSuspend(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:87:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c:369:17: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+     vTaskResume(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:87:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+'Finished building: ../src/rtos_software_timer.c'
+' '
+'Building target: rtos_software_timer.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rtos_software_timer_bsp/ps7_cortexa9_0/lib -o "rtos_software_timer.elf"  ./src/rtos_software_timer.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: rtos_software_timer.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rtos_software_timer.elf  |tee "rtos_software_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79532	   3408	  89456	 172396	  2a16c	rtos_software_timer.elf
+'Finished building: rtos_software_timer.elf.size'
+' '
+13:23:03 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+In file included from ../src/rtos_software_timer.c:89:
+../src/rtos_software_timer.c: In function 'vTIMERtask':
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/timers.h:788:67: warning: passing argument 1 of 'xTimerGenericCommand' from incompatible pointer type [-Wincompatible-pointer-types]
+ #define xTimerReset( xTimer, xTicksToWait ) xTimerGenericCommand( ( xTimer ), tmrCOMMAND_RESET, ( xTaskGetTickCount() ), NULL, ( xTicksToWait ) )
+                                                                   ^~~~~~~~~~
+../src/rtos_software_timer.c:269:2: note: in expansion of macro 'xTimerReset'
+  xTimerReset( vTIMERtask, LEDseconds );
+  ^~~~~~~~~~~
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/timers.h:1265:48: note: expected 'TimerHandle_t' {aka 'struct tmrTimerControl *'} but argument is of type 'void (*)(struct tmrTimerControl *)'
+ BaseType_t xTimerGenericCommand( TimerHandle_t xTimer, const BaseType_t xCommandID, const TickType_t xOptionalValue, BaseType_t * const pxHigherPriorityTaskWoken, const TickType_t xTicksToWait ) PRIVILEGED_FUNCTION;
+                                  ~~~~~~~~~~~~~~^~~~~~
+../src/rtos_software_timer.c: In function 'prvBTNtask':
+../src/rtos_software_timer.c:312:18: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskResume(xTIMERtask);
+                  ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:87:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+../src/rtos_software_timer.c:319:19: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+      vTaskSuspend(xTIMERtask);
+                   ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:87:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c: In function 'prvSWtask':
+../src/rtos_software_timer.c:365:17: warning: passing argument 1 of 'vTaskSuspend' from incompatible pointer type [-Wincompatible-pointer-types]
+    vTaskSuspend(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:87:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1056:33: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/rtos_software_timer.c:369:17: warning: passing argument 1 of 'vTaskResume' from incompatible pointer type [-Wincompatible-pointer-types]
+     vTaskResume(xTIMERtask);
+                 ^~~~~~~~~~
+In file included from ../src/rtos_software_timer.c:87:
+../../rtos_software_timer_bsp/ps7_cortexa9_0/include/task.h:1105:32: note: expected 'TaskHandle_t' {aka 'struct tskTaskControlBlock *'} but argument is of type 'TimerHandle_t' {aka 'struct tmrTimerControl *'}
+ void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+                   ~~~~~~~~~~~~~^~~~~~~~~~~~~
+'Finished building: ../src/rtos_software_timer.c'
+' '
+'Building target: rtos_software_timer.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rtos_software_timer_bsp/ps7_cortexa9_0/lib -o "rtos_software_timer.elf"  ./src/rtos_software_timer.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: rtos_software_timer.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rtos_software_timer.elf  |tee "rtos_software_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79532	   3408	  89456	 172396	  2a16c	rtos_software_timer.elf
+'Finished building: rtos_software_timer.elf.size'
+' '
