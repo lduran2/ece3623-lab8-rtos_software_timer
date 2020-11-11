@@ -31,7 +31,7 @@
  *
  * Created on: 	10 November 2020 (based on rtos_task_management.c)
  *     Author: 	Leomar Duran
- *    Version: 	2.3
+ *    Version: 	2.2
  */
 
 /*
@@ -45,10 +45,6 @@
 /********************************************************************************************
 * VERSION HISTORY
 ********************************************************************************************
-* 	v2.3 - 10 November 2020
-* 		Implemented BTNtask.
-* 		Renamed vTIMERtask -> vTIMERtaskCallback to avoid confusion.
-*
 * 	v2.2 - 10 November 2020
 * 		Implemented SWtask.
 *
