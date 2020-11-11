@@ -51,3 +51,360 @@ con
 ----------------End of Script----------------
 
 20:28:42 INFO  : Launch script is exported to file 'C:\Zynq_Book\lab08_freertos_software_timer\lab08_freertos_software_timer.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_rtos_software_timer.elf_on_local.tcl'
+20:44:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:44:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279759083A" && level==0} -index 1' command is executed.
+20:44:51 INFO  : FPGA configured successfully with bitstream "C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/zybo_ldbtn_sw_wrapper_hw_platform_0/zybo_ldbtn_sw_wrapper.bit"
+20:44:57 INFO  : Disconnected from the channel tcfchan#1.
+20:44:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279759083A" && level==0} -index 1' command is executed.
+20:44:58 INFO  : 'fpga -state' command is executed.
+20:44:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:44:58 INFO  : Jtag cable 'Digilent Zybo 210279759083A' is selected.
+20:44:58 INFO  : 'jtag frequency' command is executed.
+20:44:58 INFO  : Sourcing of 'C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/zybo_ldbtn_sw_wrapper_hw_platform_0/ps7_init.tcl' is done.
+20:44:58 INFO  : Context for 'APU' is selected.
+20:45:01 INFO  : Hardware design information is loaded from 'C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/zybo_ldbtn_sw_wrapper_hw_platform_0/system.hdf'.
+20:45:01 INFO  : 'configparams force-mem-access 1' command is executed.
+20:45:01 INFO  : Context for 'APU' is selected.
+20:45:01 INFO  : 'stop' command is executed.
+20:45:02 INFO  : 'ps7_init' command is executed.
+20:45:02 INFO  : 'ps7_post_config' command is executed.
+20:45:02 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:45:02 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+20:45:03 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:45:03 INFO  : The application 'C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/rtos_software_timer/Debug/rtos_software_timer.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:45:03 INFO  : 'configparams force-mem-access 0' command is executed.
+20:45:03 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/zybo_ldbtn_sw_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279759083A"} -index 0
+loadhw -hw C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/zybo_ldbtn_sw_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279759083A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279759083A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279759083A"} -index 0
+dow C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/rtos_software_timer/Debug/rtos_software_timer.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:45:03 INFO  : Memory regions updated for context APU
+20:45:03 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:45:03 INFO  : 'con' command is executed.
+20:45:03 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279759083A"} -index 0
+con
+----------------End of Script----------------
+
+20:45:03 INFO  : Launch script is exported to file 'C:\Zynq_Book\lab08_freertos_software_timer\lab08_freertos_software_timer.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_rtos_software_timer.elf_on_local.tcl'
+20:49:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:49:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279759083A" && level==0} -index 1' command is executed.
+20:50:00 INFO  : FPGA configured successfully with bitstream "C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/zybo_ldbtn_sw_wrapper_hw_platform_0/zybo_ldbtn_sw_wrapper.bit"
+20:50:07 INFO  : Disconnected from the channel tcfchan#2.
+20:50:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279759083A" && level==0} -index 1' command is executed.
+20:50:08 INFO  : 'fpga -state' command is executed.
+20:50:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:50:08 INFO  : Jtag cable 'Digilent Zybo 210279759083A' is selected.
+20:50:08 INFO  : 'jtag frequency' command is executed.
+20:50:08 INFO  : Sourcing of 'C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/zybo_ldbtn_sw_wrapper_hw_platform_0/ps7_init.tcl' is done.
+20:50:08 INFO  : Context for 'APU' is selected.
+20:50:13 INFO  : Hardware design information is loaded from 'C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/zybo_ldbtn_sw_wrapper_hw_platform_0/system.hdf'.
+20:50:13 INFO  : 'configparams force-mem-access 1' command is executed.
+20:50:13 INFO  : Context for 'APU' is selected.
+20:50:14 INFO  : 'stop' command is executed.
+20:50:17 INFO  : 'ps7_init' command is executed.
+20:50:17 INFO  : 'ps7_post_config' command is executed.
+20:50:17 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:50:17 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+20:50:17 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:50:19 ERROR : Memory write error at 0x100000. AP transaction timeout
+20:50:19 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/zybo_ldbtn_sw_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279759083A"} -index 0
+loadhw -hw C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/zybo_ldbtn_sw_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279759083A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279759083A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279759083A"} -index 0
+dow C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/rtos_software_timer/Debug/rtos_software_timer.elf
+----------------End of Script----------------
+
+20:50:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:50:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279759083A" && level==0} -index 1' command is executed.
+20:50:32 INFO  : FPGA configured successfully with bitstream "C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/zybo_ldbtn_sw_wrapper_hw_platform_0/zybo_ldbtn_sw_wrapper.bit"
+20:50:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279759083A" && level==0} -index 1' command is executed.
+20:50:36 INFO  : 'fpga -state' command is executed.
+20:50:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:50:36 INFO  : Jtag cable 'Digilent Zybo 210279759083A' is selected.
+20:50:36 INFO  : 'jtag frequency' command is executed.
+20:50:36 INFO  : Sourcing of 'C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/zybo_ldbtn_sw_wrapper_hw_platform_0/ps7_init.tcl' is done.
+20:50:37 INFO  : Context for 'APU' is selected.
+20:50:37 INFO  : Hardware design information is loaded from 'C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/zybo_ldbtn_sw_wrapper_hw_platform_0/system.hdf'.
+20:50:37 INFO  : 'configparams force-mem-access 1' command is executed.
+20:50:37 INFO  : Context for 'APU' is selected.
+20:50:37 INFO  : 'stop' command is executed.
+20:50:37 INFO  : 'ps7_init' command is executed.
+20:50:37 INFO  : 'ps7_post_config' command is executed.
+20:50:38 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:50:38 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+20:50:38 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:50:38 INFO  : The application 'C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/rtos_software_timer/Debug/rtos_software_timer.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:50:38 INFO  : 'configparams force-mem-access 0' command is executed.
+20:50:38 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/zybo_ldbtn_sw_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279759083A"} -index 0
+loadhw -hw C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/zybo_ldbtn_sw_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279759083A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279759083A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279759083A"} -index 0
+dow C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/rtos_software_timer/Debug/rtos_software_timer.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:50:38 INFO  : Memory regions updated for context APU
+20:50:39 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:50:39 INFO  : 'con' command is executed.
+20:50:39 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279759083A"} -index 0
+con
+----------------End of Script----------------
+
+20:50:39 INFO  : Launch script is exported to file 'C:\Zynq_Book\lab08_freertos_software_timer\lab08_freertos_software_timer.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_rtos_software_timer.elf_on_local.tcl'
+20:52:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:52:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279759083A" && level==0} -index 1' command is executed.
+20:52:47 INFO  : FPGA configured successfully with bitstream "C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/zybo_ldbtn_sw_wrapper_hw_platform_0/zybo_ldbtn_sw_wrapper.bit"
+20:53:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:53:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279759083A" && level==0} -index 1' command is executed.
+20:53:16 INFO  : FPGA configured successfully with bitstream "C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/zybo_ldbtn_sw_wrapper_hw_platform_0/zybo_ldbtn_sw_wrapper.bit"
+20:53:27 INFO  : Disconnected from the channel tcfchan#3.
+20:53:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279759083A" && level==0} -index 1' command is executed.
+20:53:28 INFO  : 'fpga -state' command is executed.
+20:53:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:53:29 INFO  : Jtag cable 'Digilent Zybo 210279759083A' is selected.
+20:53:29 INFO  : 'jtag frequency' command is executed.
+20:53:29 INFO  : Sourcing of 'C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/zybo_ldbtn_sw_wrapper_hw_platform_0/ps7_init.tcl' is done.
+20:53:29 INFO  : Context for 'APU' is selected.
+20:53:33 INFO  : Hardware design information is loaded from 'C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/zybo_ldbtn_sw_wrapper_hw_platform_0/system.hdf'.
+20:53:33 INFO  : 'configparams force-mem-access 1' command is executed.
+20:53:33 INFO  : Context for 'APU' is selected.
+20:53:33 INFO  : 'stop' command is executed.
+20:53:36 INFO  : 'ps7_init' command is executed.
+20:53:36 INFO  : 'ps7_post_config' command is executed.
+20:53:36 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:53:36 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+20:53:36 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:53:38 ERROR : Memory write error at 0x100000. AP transaction timeout
+20:53:38 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/zybo_ldbtn_sw_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279759083A"} -index 0
+loadhw -hw C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/zybo_ldbtn_sw_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279759083A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279759083A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279759083A"} -index 0
+dow C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/rtos_software_timer/Debug/rtos_software_timer.elf
+----------------End of Script----------------
+
+20:53:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:53:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279759083A" && level==0} -index 1' command is executed.
+20:53:51 INFO  : FPGA configured successfully with bitstream "C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/zybo_ldbtn_sw_wrapper_hw_platform_0/zybo_ldbtn_sw_wrapper.bit"
+20:53:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279759083A" && level==0} -index 1' command is executed.
+20:53:56 INFO  : 'fpga -state' command is executed.
+20:53:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:53:57 INFO  : Jtag cable 'Digilent Zybo 210279759083A' is selected.
+20:53:57 INFO  : 'jtag frequency' command is executed.
+20:53:57 INFO  : Sourcing of 'C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/zybo_ldbtn_sw_wrapper_hw_platform_0/ps7_init.tcl' is done.
+20:53:57 INFO  : Context for 'APU' is selected.
+20:53:57 INFO  : Hardware design information is loaded from 'C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/zybo_ldbtn_sw_wrapper_hw_platform_0/system.hdf'.
+20:53:57 INFO  : 'configparams force-mem-access 1' command is executed.
+20:53:57 INFO  : Context for 'APU' is selected.
+20:53:57 INFO  : 'stop' command is executed.
+20:53:58 INFO  : 'ps7_init' command is executed.
+20:53:58 INFO  : 'ps7_post_config' command is executed.
+20:53:58 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:53:58 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+20:53:59 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:53:59 INFO  : The application 'C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/rtos_software_timer/Debug/rtos_software_timer.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:53:59 INFO  : 'configparams force-mem-access 0' command is executed.
+20:53:59 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/zybo_ldbtn_sw_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279759083A"} -index 0
+loadhw -hw C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/zybo_ldbtn_sw_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279759083A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279759083A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279759083A"} -index 0
+dow C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/rtos_software_timer/Debug/rtos_software_timer.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:53:59 INFO  : Memory regions updated for context APU
+20:54:00 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:54:00 INFO  : 'con' command is executed.
+20:54:00 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279759083A"} -index 0
+con
+----------------End of Script----------------
+
+20:54:00 INFO  : Launch script is exported to file 'C:\Zynq_Book\lab08_freertos_software_timer\lab08_freertos_software_timer.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_rtos_software_timer.elf_on_local.tcl'
+21:19:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:19:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279759083A" && level==0} -index 1' command is executed.
+21:19:21 INFO  : FPGA configured successfully with bitstream "C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/zybo_ldbtn_sw_wrapper_hw_platform_0/zybo_ldbtn_sw_wrapper.bit"
+21:19:26 INFO  : Disconnected from the channel tcfchan#4.
+21:19:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279759083A" && level==0} -index 1' command is executed.
+21:19:27 INFO  : 'fpga -state' command is executed.
+21:19:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:19:28 INFO  : Jtag cable 'Digilent Zybo 210279759083A' is selected.
+21:19:28 INFO  : 'jtag frequency' command is executed.
+21:19:28 INFO  : Sourcing of 'C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/zybo_ldbtn_sw_wrapper_hw_platform_0/ps7_init.tcl' is done.
+21:19:28 INFO  : Context for 'APU' is selected.
+21:19:33 INFO  : Hardware design information is loaded from 'C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/zybo_ldbtn_sw_wrapper_hw_platform_0/system.hdf'.
+21:19:33 INFO  : 'configparams force-mem-access 1' command is executed.
+21:19:33 INFO  : Context for 'APU' is selected.
+21:19:33 INFO  : 'stop' command is executed.
+21:19:34 INFO  : 'ps7_init' command is executed.
+21:19:34 INFO  : 'ps7_post_config' command is executed.
+21:19:34 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:19:34 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+21:19:34 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:19:34 INFO  : The application 'C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/rtos_software_timer/Debug/rtos_software_timer.elf' is downloaded to processor 'ps7_cortexa9_0'.
+21:19:34 INFO  : 'configparams force-mem-access 0' command is executed.
+21:19:34 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/zybo_ldbtn_sw_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279759083A"} -index 0
+loadhw -hw C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/zybo_ldbtn_sw_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279759083A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279759083A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279759083A"} -index 0
+dow C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/rtos_software_timer/Debug/rtos_software_timer.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:19:34 INFO  : Memory regions updated for context APU
+21:19:35 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:19:35 INFO  : 'con' command is executed.
+21:19:35 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279759083A"} -index 0
+con
+----------------End of Script----------------
+
+21:19:35 INFO  : Launch script is exported to file 'C:\Zynq_Book\lab08_freertos_software_timer\lab08_freertos_software_timer.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_rtos_software_timer.elf_on_local.tcl'
+21:22:55 INFO  : Disconnected from the channel tcfchan#5.
+21:22:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279759083A" && level==0} -index 1' command is executed.
+21:22:57 INFO  : 'fpga -state' command is executed.
+21:22:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:22:58 INFO  : Jtag cable 'Digilent Zybo 210279759083A' is selected.
+21:22:58 INFO  : 'jtag frequency' command is executed.
+21:22:58 INFO  : Sourcing of 'C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/zybo_ldbtn_sw_wrapper_hw_platform_0/ps7_init.tcl' is done.
+21:22:58 INFO  : Context for 'APU' is selected.
+21:23:03 INFO  : Hardware design information is loaded from 'C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/zybo_ldbtn_sw_wrapper_hw_platform_0/system.hdf'.
+21:23:03 INFO  : 'configparams force-mem-access 1' command is executed.
+21:23:03 INFO  : Context for 'APU' is selected.
+21:23:04 INFO  : 'stop' command is executed.
+21:23:04 INFO  : 'ps7_init' command is executed.
+21:23:05 INFO  : 'ps7_post_config' command is executed.
+21:23:05 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:23:05 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+21:23:05 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:23:05 INFO  : The application 'C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/rtos_software_timer/Debug/rtos_software_timer.elf' is downloaded to processor 'ps7_cortexa9_0'.
+21:23:05 INFO  : 'configparams force-mem-access 0' command is executed.
+21:23:05 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/zybo_ldbtn_sw_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279759083A"} -index 0
+loadhw -hw C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/zybo_ldbtn_sw_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279759083A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279759083A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279759083A"} -index 0
+dow C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/rtos_software_timer/Debug/rtos_software_timer.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:23:06 INFO  : Memory regions updated for context APU
+21:23:06 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:23:06 INFO  : 'con' command is executed.
+21:23:06 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279759083A"} -index 0
+con
+----------------End of Script----------------
+
+21:23:06 INFO  : Launch script is exported to file 'C:\Zynq_Book\lab08_freertos_software_timer\lab08_freertos_software_timer.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_rtos_software_timer.elf_on_local.tcl'
+21:24:16 INFO  : Disconnected from the channel tcfchan#6.
+21:24:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279759083A" && level==0} -index 1' command is executed.
+21:24:18 INFO  : 'fpga -state' command is executed.
+21:24:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:24:18 INFO  : Jtag cable 'Digilent Zybo 210279759083A' is selected.
+21:24:18 INFO  : 'jtag frequency' command is executed.
+21:24:18 INFO  : Sourcing of 'C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/zybo_ldbtn_sw_wrapper_hw_platform_0/ps7_init.tcl' is done.
+21:24:18 INFO  : Context for 'APU' is selected.
+21:24:23 INFO  : Hardware design information is loaded from 'C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/zybo_ldbtn_sw_wrapper_hw_platform_0/system.hdf'.
+21:24:23 INFO  : 'configparams force-mem-access 1' command is executed.
+21:24:23 INFO  : Context for 'APU' is selected.
+21:24:23 INFO  : 'stop' command is executed.
+21:24:24 INFO  : 'ps7_init' command is executed.
+21:24:24 INFO  : 'ps7_post_config' command is executed.
+21:24:24 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:24:24 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+21:24:24 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:24:24 INFO  : The application 'C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/rtos_software_timer/Debug/rtos_software_timer.elf' is downloaded to processor 'ps7_cortexa9_0'.
+21:24:25 INFO  : 'configparams force-mem-access 0' command is executed.
+21:24:25 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/zybo_ldbtn_sw_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279759083A"} -index 0
+loadhw -hw C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/zybo_ldbtn_sw_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279759083A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279759083A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279759083A"} -index 0
+dow C:/Zynq_Book/lab08_freertos_software_timer/lab08_freertos_software_timer.sdk/rtos_software_timer/Debug/rtos_software_timer.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:24:25 INFO  : Memory regions updated for context APU
+21:24:25 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:24:25 INFO  : 'con' command is executed.
+21:24:25 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279759083A"} -index 0
+con
+----------------End of Script----------------
+
+21:24:25 INFO  : Launch script is exported to file 'C:\Zynq_Book\lab08_freertos_software_timer\lab08_freertos_software_timer.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_rtos_software_timer.elf_on_local.tcl'

@@ -149,3 +149,143 @@ arm-none-eabi-size rtos_software_timer.elf  |tee "rtos_software_timer.elf.size"
   79988	   3408	  89456	 172852	  2a334	rtos_software_timer.elf
 'Finished building: rtos_software_timer.elf.size'
 ' '
+20:43:08 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+../src/rtos_software_timer.c: In function 'prvSWtask':
+../src/rtos_software_timer.c:359:32: error: expected identifier before '(' token
+   if ((sw[0] & SW0) == SW0) && (((sw[1] & SW0) == SWOFF)) {
+                                ^
+../src/rtos_software_timer.c:344:32: warning: unused variable 'state' [-Wunused-variable]
+  enum { STOPPABLE, STARTABLE } state;
+                                ^~~~~
+make: *** [src/subdir.mk:23: src/rtos_software_timer.o] Error 1
+20:44:28 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+'Finished building: ../src/rtos_software_timer.c'
+' '
+'Building target: rtos_software_timer.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rtos_software_timer_bsp/ps7_cortexa9_0/lib -o "rtos_software_timer.elf"  ./src/rtos_software_timer.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: rtos_software_timer.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rtos_software_timer.elf  |tee "rtos_software_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80044	   3408	  89456	 172908	  2a36c	rtos_software_timer.elf
+'Finished building: rtos_software_timer.elf.size'
+' '
+20:44:54 **** Incremental Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+20:49:54 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+'Finished building: ../src/rtos_software_timer.c'
+' '
+'Building target: rtos_software_timer.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rtos_software_timer_bsp/ps7_cortexa9_0/lib -o "rtos_software_timer.elf"  ./src/rtos_software_timer.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: rtos_software_timer.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rtos_software_timer.elf  |tee "rtos_software_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80044	   3408	  89456	 172908	  2a36c	rtos_software_timer.elf
+'Finished building: rtos_software_timer.elf.size'
+' '
+20:50:02 **** Incremental Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+20:50:34 **** Incremental Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+20:51:36 **** Incremental Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+20:52:42 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+'Finished building: ../src/rtos_software_timer.c'
+' '
+'Building target: rtos_software_timer.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rtos_software_timer_bsp/ps7_cortexa9_0/lib -o "rtos_software_timer.elf"  ./src/rtos_software_timer.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: rtos_software_timer.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rtos_software_timer.elf  |tee "rtos_software_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80044	   3408	  89456	 172908	  2a36c	rtos_software_timer.elf
+'Finished building: rtos_software_timer.elf.size'
+' '
+20:53:24 **** Incremental Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+20:53:53 **** Incremental Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:19:15 **** Auto Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rtos_software_timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rtos_software_timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rtos_software_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rtos_software_timer.d" -MT"src/rtos_software_timer.o" -o "src/rtos_software_timer.o" "../src/rtos_software_timer.c"
+'Finished building: ../src/rtos_software_timer.c'
+' '
+'Building target: rtos_software_timer.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rtos_software_timer_bsp/ps7_cortexa9_0/lib -o "rtos_software_timer.elf"  ./src/rtos_software_timer.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: rtos_software_timer.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rtos_software_timer.elf  |tee "rtos_software_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80044	   3408	  89456	 172908	  2a36c	rtos_software_timer.elf
+'Finished building: rtos_software_timer.elf.size'
+' '
+21:19:22 **** Incremental Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:22:52 **** Incremental Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:23:31 **** Incremental Build of configuration Debug for project rtos_software_timer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.

@@ -270,20 +270,6 @@ static void vTIMERtaskCallback( TimerHandle_t pxTimer )
 
 	/* reset the timer */
 	xTimerReset( xTIMERtask, 0 );
-
-	/* If the RxtaskCntr is updated every time the Rx task is called. The
-	 Rx task is called every time the Tx task sends a message. The Tx task
-	 sends a message every 1 second.
-	 The timer expires after 10 seconds. We expect the RxtaskCntr to at least
-	 have a value of 9 (TIMER_CHECK_THRESHOLD) when the timer expires. */
-//	if (RxtaskCntr >= TIMER_TASK_CHECK_THRESHOLD) {
-//		xil_printf("FreeRTOS Hello World Example PASSED");
-//	} else {
-//		xil_printf("FreeRTOS Hello World Example FAILED");
-//	}
-
-//	vTaskDelete( xRxTask );
-//	vTaskDelete( xTxTask );
 }
 
 
@@ -355,6 +341,8 @@ static void prvBTNtask( void *pvParameters )
 static void prvSWtask( void *pvParameters )
 {
 	char sw[2];	/* Hold the switch values, 0 : current, 1 : previous. */
+	enum { STANDBY, STOPPABLE, STARTABLE } state = STANDBY;
+
 	for( ;; )
 	{
 		/* Read input from the switches. */
@@ -366,16 +354,32 @@ static void prvSWtask( void *pvParameters )
 			continue;
 		}
 
-		/* If SW0 is ON , SW1 is OFF, stop  the timer */
-		if (((sw[0] & SW0) == SW0  ) && ((sw[0] & SW1) == SWOFF)) {
+		/* prioritize SW0 over SW1 */
+
+		/* depending on state, inspect SW1 */
+		/* If stoppable, SW1 is OFF, then stop  the timer */
+		if ((state == STOPPABLE) && ((sw[0] & SW1) == SWOFF)) {
 			printf("SWtask : TIMERtask is stopped.\r\n");
 			xTimerStop (xTIMERtask, 0);
 		}
-
-		/* If SW0 is OFF, SW1 is ON , start the timer */
-		if (((sw[0] & SW0) == SWOFF) && ((sw[0] & SW1) == SW1  )) {
+		/* If startable, SW1 is ON , then start the timer */
+		else if ((state == STARTABLE) && ((sw[0] & SW1) == SW1  )) {
 			printf("SWtask : TIMERtask is started.\r\n");
 			xTimerStart(xTIMERtask, 0);
+		}
+
+		/* set the state according to new switch value */
+		/* stoppable state if SW0 switched ON  from previous value */
+		if (((sw[0] & SW0) == SW0) && ((sw[1] & SW0) == SWOFF)) {
+			state = STOPPABLE;
+		}
+		/* startable state if SW0 is OFF from previous value */
+		else if (((sw[0] & SW0) == SWOFF) && ((sw[1] & SW0) == SW0)) {
+			state = STARTABLE;
+		}
+		/* all other cases, the state is STANDBY */
+		else {
+			state = STANDBY;
 		}
 	}
 }
